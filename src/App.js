@@ -7,7 +7,7 @@ function App() {
   return (
     <div className='dashboard'>
       <div className='dashboard-sections'> 
-      <text>NOTE: we can update custom logos after hosting in AWS</text>
+      <text>NOTE: we can update custom logos after hosting in AWS</text><br/>
         <UpdateNavLogo />
         <UpdateHeaderBtnTxt />
         <Emails />

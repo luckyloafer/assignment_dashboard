@@ -1,7 +1,7 @@
 .email{
     background-color: aliceblue;
-    padding: 0px 20px 0px 20px;
+    padding: 0px 9px 0px 9px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
 }
