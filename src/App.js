@@ -1,23 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Emails from './Emails';
+import UpdateNavLogo from './UpdateNavLogo';
+import UpdateHeaderBtnTxt from './UpdateHeaderBtnTxt';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='dashboard'>
+      <div className='dashboard-sections'> 
+      <text>NOTE: we can update custom logos after hosting in AWS</text>
+        <UpdateNavLogo />
+        <UpdateHeaderBtnTxt />
+        <Emails />
+      </div>
+
     </div>
   );
 }
