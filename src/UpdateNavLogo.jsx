@@ -25,7 +25,7 @@ const UpdateNavLogo = () => {
     <div>
       
       <input  placeholder="Use public image addresses" type='text' value={logoURL} onChange={handleChange} style={{borderWidth:5,padding:5}}/>
-      <button onClick={handleClick} style={{backgroundColor:"lightblue",borderColor:"blue",borderWidth:5,padding:5}}>Change Navbar Logo</button>
+      <button onClick={handleClick} style={{backgroundColor:"lightblue",borderColor:"blue",borderWidth:5,padding:5}}><text style={{fontWeight:"bold"}}>Change Navbar Logo</text></button>
     </div>
 
   )

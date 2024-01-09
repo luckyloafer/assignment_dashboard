@@ -24,8 +24,8 @@ const UpdateHeaderBtnTxt = () => {
   return (
 
     <div>
-      <input type='text' value={btnText} onChange={handleChange} />
-      <button onClick={handleClick}>Change Button Text</button>
+      <input type='text' placeholder='New Text' value={btnText} onChange={handleChange} style={{borderWidth:5,padding:5}} />
+      <button onClick={handleClick} style={{backgroundColor:"lightblue",borderColor:"blue",borderWidth:5,padding:5}}><text style={{fontWeight:"bold"}}>Change Button Text</text></button>
     </div>
     
   )
